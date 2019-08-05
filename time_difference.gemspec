@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'time_difference'
   gem.require_paths = ['lib']
-  gem.version       = '0.8.0'
+  gem.version       = '0.8.1'
   gem.license = 'MIT'
 
   gem.add_runtime_dependency('activesupport', '>= 4.2.6', '< 6.0')
