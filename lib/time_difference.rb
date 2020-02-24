@@ -240,7 +240,7 @@ class TimeDifference
   # @param [Date, Time, DateTime] time
   # @return [Time]
   def in_time_zone(time)
-    time = time.in_time_zone(@timezone) if !time.is_a?(Time) || @force_timezone
+    time = time
     time
   end
 
