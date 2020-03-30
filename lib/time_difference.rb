@@ -11,7 +11,7 @@ require 'active_support/all'
 # @author TM Lee <tm89lee@gmail.com>, Joel Courtney <jcourtney@cozero.com.au>
 class TimeDifference
   # @group Class Constants
-  TIME_COMPONENTS = %i[years months weeks days hours minutes seconds].freeze
+  TIME_COMPONENTS = %i[years months weeks days].freeze
   DEFAULT_DATE_OPTIONS = {
     force_timezone: false,
     inclusive: false,
